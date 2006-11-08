@@ -7,7 +7,7 @@ Summary:	%{_pearname} - renderer driver using PEAR::Console_Table
 Summary(pl):	%{_pearname} - sterownik renderera korzystaj±cy z PEAR::Console_Table
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
