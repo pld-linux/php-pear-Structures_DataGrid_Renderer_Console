@@ -3,7 +3,6 @@
 %define		_subclass	DataGrid_Renderer_Console
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_Console
-
 Summary:	%{_pearname} - renderer driver using PEAR::Console_Table
 Summary(pl):	%{_pearname} - sterownik renderera korzystaj±cy z PEAR::Console_Table
 Name:		php-pear-%{_pearname}
@@ -18,7 +17,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-Console_Table >= 1.0.4
-Requires:	php-pear-PEAR >= 1:1.4.-0.9
+Requires:	php-pear-PEAR-core >= 1:1.4.9
 Requires:	php-pear-Structures_DataGrid >= 0.7.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
