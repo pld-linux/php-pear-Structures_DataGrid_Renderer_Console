@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - renderer driver using PEAR::Console_Table
 Summary(pl):	%{_pearname} - sterownik renderera korzystaj±cy z PEAR::Console_Table
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
-Release:	2
+Version:	0.1.1
+Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	db8a2be5fadda23336ba468476fadaaa
+# Source0-md5:	17a3c5c3acc6d3869221b122306d0d41
 URL:		http://pear.php.net/package/Structures_DataGrid_Renderer_Console/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
