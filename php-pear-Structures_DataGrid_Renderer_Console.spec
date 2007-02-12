@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_Console
 Summary:	%{_pearname} - renderer driver using PEAR::Console_Table
-Summary(pl):	%{_pearname} - sterownik renderera korzystaj±cy z PEAR::Console_Table
+Summary(pl.UTF-8):   %{_pearname} - sterownik renderera korzystajÄ…cy z PEAR::Console_Table
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -28,9 +28,9 @@ PEAR::Console_Table.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet dostarcza sterownik renderera dla Structures_DataGrid
-korzyst±cy z PEAR::Console_Table.
+korzystÄ…cy z PEAR::Console_Table.
 
 Ta klasa ma w PEAR status: %{_status}.
 
