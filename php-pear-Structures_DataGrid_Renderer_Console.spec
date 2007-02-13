@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_Console
 Summary:	%{_pearname} - renderer driver using PEAR::Console_Table
-Summary(pl.UTF-8):   %{_pearname} - sterownik renderera korzystający z PEAR::Console_Table
+Summary(pl.UTF-8):	%{_pearname} - sterownik renderera korzystający z PEAR::Console_Table
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
