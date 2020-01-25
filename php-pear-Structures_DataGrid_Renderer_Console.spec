@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_Renderer_Console
 Summary:	%{_pearname} - renderer driver using PEAR::Console_Table
